@@ -1,0 +1,3 @@
+.ui.image img, .ui.image svg {
+    height: 300px !important;
+}

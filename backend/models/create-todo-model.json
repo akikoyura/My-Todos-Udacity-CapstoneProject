@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "name": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "dueDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "dueDate"
+  ],
+  "additionalProperties": false
+}
